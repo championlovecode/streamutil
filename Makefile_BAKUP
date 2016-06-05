@@ -1,0 +1,3 @@
+all:
+	gcc -o streamutil streamutil.c   -lasound `pkg-config --cflags --libs libpjproject`
+#	gcc -o main main.c
